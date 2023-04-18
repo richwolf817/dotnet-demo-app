@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - name: todoapi
-        image: /k8s-todo-api:latest
+        image: gwfcdt/dotnet-demo-app:latest
         ports:
         - containerPort: 5000
         env:
